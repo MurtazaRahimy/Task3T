@@ -38,3 +38,30 @@
 2026-05-05 20:12:48,681 - WARNING - RETRAINING NEEDED: Performance degraded by 14759123.3%
 2026-05-05 20:12:48,682 - INFO - ======================================================================
 2026-05-05 20:12:48,685 - INFO - Results saved to artifacts/metrics/monitoring_summary.json
+2026-06-01 18:29:02,649 - INFO - ======================================================================
+2026-06-01 18:29:02,649 - INFO - STARTING COMPREHENSIVE MONITORING
+2026-06-01 18:29:02,649 - INFO - ======================================================================
+2026-06-01 18:29:02,649 - INFO - Loading data from artifacts...
+2026-06-01 18:29:02,649 - ERROR - Test data not found!
+2026-06-01 18:29:02,649 - INFO - Available files in artifacts:
+2026-06-01 18:29:02,649 - ERROR - Monitoring failed: not enough values to unpack (expected 7, got 6)
+2026-06-01 18:47:59,334 - INFO - ======================================================================
+2026-06-01 18:47:59,334 - INFO - STARTING COMPREHENSIVE MONITORING
+2026-06-01 18:47:59,335 - INFO - ======================================================================
+2026-06-01 18:47:59,335 - INFO - Loading data from artifacts...
+2026-06-01 18:47:59,339 - INFO - Loaded test data: (2451, 376, 1)
+2026-06-01 18:47:59,345 - INFO - Loaded training data: (5716, 376, 1)
+2026-06-01 18:47:59,345 - WARNING - No new data found, using test data as reference
+2026-06-01 18:47:59,483 - INFO - Model loaded successfully
+2026-06-01 18:47:59,483 - INFO - Getting model predictions...
+2026-06-01 18:47:59,919 - INFO - Test predictions: 2451 samples
+2026-06-01 18:48:00,191 - INFO - New data predictions: 2451 samples
+2026-06-01 18:48:00,191 - INFO - Calculating test metrics...
+2026-06-01 18:48:00,192 - INFO - Test Metrics: MSE=65.7543, MAE=5.0701, R2=-0.0929
+2026-06-01 18:48:00,192 - INFO - Calculating new data metrics...
+2026-06-01 18:48:00,193 - INFO - New Data Metrics: MSE=65.7543, MAE=5.0701, R2=-0.0929
+2026-06-01 18:48:00,193 - INFO - Performance change: +0.00%
+2026-06-01 18:48:00,193 - INFO - ======================================================================
+2026-06-01 18:48:00,194 - INFO - NO RETRAINING NEEDED: Performance change within threshold
+2026-06-01 18:48:00,194 - INFO - ======================================================================
+2026-06-01 18:48:00,198 - INFO - Results saved to artifacts/metrics/monitoring_summary.json
